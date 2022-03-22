@@ -15,4 +15,10 @@ public class VehicleLoans
 	{
 		System.out.println("Second VehicleLoan1 test");
 	}
+	@Test
+	
+	public void V_Loan3()
+	{
+		System.out.println("Third Vehicle Loan");
+	}
 }

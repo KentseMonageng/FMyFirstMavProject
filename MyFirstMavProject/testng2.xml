@@ -17,9 +17,16 @@
     <classes> <!-- VehicleLoans -->
       <class name="loans.VehicleLoans">
 		<methods>
-			<exclude name="V_Loan2"/> <!--Exclude this test case -->
+			<exclude name=".*_Loan.*"/>
+		</methods>
+		<methods>
+			<include name="*Loan2"/> <!--include this test case -->
+		</methods>
+		<methods>
+			<exclude name="V_Loan3"/>
 		</methods>
 	   </class>
+	
     </classes>
    </test> <!-- Test -->
 
