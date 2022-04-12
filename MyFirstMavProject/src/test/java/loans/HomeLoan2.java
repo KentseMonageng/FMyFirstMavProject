@@ -9,7 +9,7 @@ public class HomeLoan2
 	{
 		System.out.println("First HomeLoan2 test");
 	}
-	@Test
+	@Test(groups= {"Premium"})
 	
 	public void HL2_Loan2()
 	{
